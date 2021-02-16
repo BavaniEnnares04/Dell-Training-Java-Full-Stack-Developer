@@ -24,6 +24,7 @@ public class StringToNumberConvertor {
 		System.out.println("Double Amount :: "+doubleAmount);
 		System.out.println("Integer Price :: "+priceInt);
 			
+		//version2
 	}
 
 }
