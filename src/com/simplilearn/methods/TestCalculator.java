@@ -13,6 +13,12 @@ public class TestCalculator {
 		
 		// call sub 
 		sub(200,100,"Substraction");
+		
+		// call multiplication
+		multiplication(100,100,100);
+		
+		// call div
+		division(20,15,"Division");
 	}
 
 	// access modifier return-type identifier () { --- body --- }
@@ -40,5 +46,17 @@ public class TestCalculator {
 	}
 	
 	// TODO :: WA method for mul and division with 3 input params
-
+	
+	public static void multiplication(int num1, int num2, int num3) {
+		float result = num1*num2*num3;
+		System.out.println("Multiplication  :: "+result);
+		
+		
+	}
+	
+	public static void division(int num1, int num2, String action) {
+		float result = num1/num2;
+		System.out.println(action + " :: "+result);
+	}
+		
 }
