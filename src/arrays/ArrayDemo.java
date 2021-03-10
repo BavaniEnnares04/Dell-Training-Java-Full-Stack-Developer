@@ -32,6 +32,27 @@ public class ArrayDemo {
 		int[] numbers2 = { 20,30,40,50,60};
 		
 		// TODO :: WAP for String array with names value
+		
+		String str1[] = {"harry","potter","sheldon","big bank theory"};
+		System.out.println(str1);
+		
+		System.out.println(Arrays.toString(str1));
+		// iteration
+		for (int index = 0; index < str1.length; index++) {
+			System.out.println("Element at index :: "+index +"  & value :: "+str1[index]);
+		}
+		
+		// iteration for changing value.
+		// change element bank with bang.
+		for (int i = 0; i < str1.length; i++) {			
+			if(str1[i].equals("bank")) {
+				str1[i] = "bang";
+				break;
+			}
 	}
+		System.out.println(Arrays.toString(str1));
 
+}
+	
+	
 }
